@@ -1,0 +1,9 @@
+<h1>Formations</h1>
+<ul>
+  <% formations.forEach(function(formation){ %>
+    <li>
+      <strong><%= formation.name %></strong>
+      <p><%= formation.description %></p>
+    </li>
+  <% }); %>
+</ul>

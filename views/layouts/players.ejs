@@ -1,0 +1,10 @@
+<h1>Players</h1>
+<ul>
+  <% players.forEach(function(player){ %>
+    <li>
+      <strong><%= player.name %></strong>
+      representing <%= player.team %>,
+      born <%= player.birth_year %>
+    </li>
+  <% }); %>
+</ul>
